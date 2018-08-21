@@ -8,11 +8,11 @@ Deployed at: <https://finstagram-scripted.firebaseapp.com/>
 
 ```json
 {
-  "posts": [
+  "posts": {
     "$postid": {
       "image": "https://example.com/image.jpg"
     },
     ...
-  ]
+  }
 }
 ```
