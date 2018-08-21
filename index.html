@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  #images > img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+</style>
+
+<title>Finstagram</title>
+
+<body>
+  <div id="images"></div>
+
+  <form id="image-form" action="#">
+    <input type="text" id="image-url">
+    <input type="submit" value="Add">
+  </form>
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+  <script src="script.js"></script>
+</body>
